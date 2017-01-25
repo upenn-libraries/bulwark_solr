@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  solr:
+    image: 'colenda_solr:latest'
+    ports:
+     - "8983:8983"
+    volumes:
+      - data:/opt/solr/server/solr/bl_hydra
+    entrypoint:
+      - docker-entrypoint.sh
+      - solr-precreate
+      - bl_hydra
+volumes:
+  data:
