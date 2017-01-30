@@ -6,10 +6,6 @@ services:
     ports:
      - "8983:8983"
     volumes:
-      - data:/opt/solr/server/solr/bl_hydra
-    entrypoint:
-      - docker-entrypoint.sh
-      - solr-precreate
-      - bl_hydra
+      - data:/opt/solr/server/solr/blacklight-core/
 volumes:
   data:
