@@ -2,7 +2,8 @@ version: '2'
 
 services:
   solr:
-    image: 'colenda_solr:latest'
+    restart: 'unless-stopped'
+    image: 'solr5_dev:latest'
     ports:
      - "8983:8983"
     volumes:
