@@ -34,7 +34,7 @@
     <str name="oai_home">/oai</str>
 
     <!-- the base url...  -->
-    <str name="proxyurl">http://localhost:8983/core0/oai</str>
+    <str name="proxyurl">http://colenda-dev.library.upenn.int:8983/blacklight-core/oai</str>
 
     <!-- index of the oai identifier user for the -identifier parameter
      For example, if your Solr identifier index is "identifier", you set it
