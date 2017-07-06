@@ -43,11 +43,11 @@
   <xsl:template name="header">
     <header>
       <identifier>
-        oai:localhost:<xsl:value-of select="$doc//str[@name='identifier']"/>
+        oai:localhost:<xsl:value-of select="$doc//str[@name='id']"/>
       </identifier>
       <datestamp>
         <xsl:call-template name="datestamp">
-          <xsl:with-param name="solrdate" select="$doc//date[@name='datestamp']"/>
+          <xsl:with-param name="solrdate" select="$doc//date[@name='timestamp']"/>
         </xsl:call-template>
       </datestamp>
       <xsl:for-each select="$doc//arr[@name='theme']/str">
@@ -59,22 +59,22 @@
   </xsl:template>
 
   <xsl:template name="metadata">
-    <xsl:variable name="metadata" select="saxon:parse($doc//str[@name='resource']/text())/node()"/>
     <metadata>
       <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
                  xmlns:dc="http://purl.org/dc/elements/1.1/">
-        <xsl:for-each select="$metadata/*">
-          
-          <xsl:choose>
-            <dc:title>
-              <xsl:value-of select="$doc//str[@name='title_tesim']"/>
-            </dc:title>
-          </xsl:choose>
+
+        <xsl:for-each select="$doc//arr[@name='title_tesim']">
+          <dc:title>
+            <xsl:value-of select="."/>
+          </dc:title>
         </xsl:for-each>
+
       </oai_dc:dc>
     </metadata>
   </xsl:template>
 
-  <xsl:template name="about"/>
+  <xsl:template name="about">
+    just stuff about our stuff
+  </xsl:template>
 
 </xsl:stylesheet>
