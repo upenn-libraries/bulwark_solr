@@ -181,7 +181,7 @@
           </dc:type>
         </xsl:for-each>
 
-      </oai_dc:dc>
+      </oai_qdc:qualifieddc>
     </metadata>
   </xsl:template>
 
