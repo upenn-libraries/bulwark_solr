@@ -117,7 +117,7 @@
           </dc:description>
         </xsl:for-each>
 
-        <xsl:for-each select="$doc//arr[@name='subject_tesim']">
+        <xsl:for-each select="$doc//arr[@name='subject_tesim']/str">
           <dc:subject>
             <xsl:value-of select="."/>
           </dc:subject>
@@ -180,10 +180,6 @@
 
       </oai_dc:dc>
     </metadata>
-  </xsl:template>
-
-  <xsl:template name="about">
-    OAI feed of objects coming from Colenda
   </xsl:template>
 
 </xsl:stylesheet>
