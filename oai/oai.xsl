@@ -31,14 +31,12 @@
                 <record>
                     <xsl:call-template name="header"/>
                     <xsl:call-template name="metadata"/>
-                    <xsl:call-template name="about"/>
                 </record>
             </xsl:when>
             <xsl:when test="$verb='ListRecords'">
                 <record>
                     <xsl:call-template name="header"/>
                     <xsl:call-template name="metadata"/>
-                    <xsl:call-template name="about"/>
                 </record>
             </xsl:when>
             <xsl:otherwise>
