@@ -13,9 +13,9 @@
       <metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace>
     </metadataFormat>
     <metadataFormat>
-      <metadataPrefix>solr</metadataPrefix>
-      <schema>http://wiki.apache.org/solr/solr.xsd</schema>
-      <metadataNamespace>http://wiki.apache.org/solr/</metadataNamespace>
+      <metadataPrefix>oai_qdc</metadataPrefix>
+      <schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</schema>
+      <metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace>
     </metadataFormat>
   </ListMetadataFormats>
 </OAI-PMH>
