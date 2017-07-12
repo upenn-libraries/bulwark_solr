@@ -40,7 +40,7 @@
      For example, if your Solr identifier index is "identifier", you set it
      to... ques what...
      -->
-    <str name="field_index_identifier">identifier</str>
+    <str name="field_index_identifier">id</str>
 
     <!-- The prefix will be stripped from the oai identifier value, before it is passed
     to the Solr Lucene query. For example, if your index contains a

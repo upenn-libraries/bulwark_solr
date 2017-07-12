@@ -40,6 +40,39 @@
 
   <xsl:import href="oai.xsl"/>
 
+  <xsl:template name="header">
+    <header>
+      <identifier>
+        oai:localhost:<xsl:value-of select="$doc//str[@name='id']"/>
+      </identifier>
+      <datestamp>
+        <xsl:call-template name="datestamp">
+          <xsl:with-param name="solrdate" select="$doc//date[@name='timestamp']"/>
+        </xsl:call-template>
+      </datestamp>
+      <xsl:for-each select="$doc//arr[@name='theme']/str">
+        <setSpec>
+          <xsl:value-of select="."/>
+        </setSpec>
+      </xsl:for-each>
+    </header>
+  </xsl:template>
+
+  <xsl:template name="metadata">
+    <metadata>
+      <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+        <xsl:for-each select="$doc//arr[@name='title_tesim']">
+          <dc:title>
+            <xsl:value-of select="."/>
+          </dc:title>
+        </xsl:for-each>
+
+      </oai_dc:dc>
+    </metadata>
+  </xsl:template>
+
   <xsl:template name="about">
     just stuff about our stuff
   </xsl:template>
