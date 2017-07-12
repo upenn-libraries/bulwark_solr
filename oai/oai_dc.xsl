@@ -50,11 +50,6 @@
           <xsl:with-param name="solrdate" select="$doc//date[@name='timestamp']"/>
         </xsl:call-template>
       </datestamp>
-      <xsl:for-each select="$doc//arr[@name='theme']/str">
-        <setSpec>
-          <xsl:value-of select="."/>
-        </setSpec>
-      </xsl:for-each>
     </header>
   </xsl:template>
 
