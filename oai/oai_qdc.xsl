@@ -66,45 +66,45 @@
 
 
       <xsl:for-each select="$doc//arr[@name='title_tesim']/str">
-          <dc:title>
+          <dcterms:title>
             <xsl:value-of select="."/>
-          </dc:title>
+          </dcterms:title>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='unique_identifier_tesim']/str">
-          <dc:identifier>
+          <dcterms:identifier>
             <xsl:value-of select="."/>
-          </dc:identifier>
+          </dcterms:identifier>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='identifier_tesim']/str">
-          <dc:identifier>
+          <dcterms:identifier>
             <xsl:value-of select="."/>
-          </dc:identifier>
+          </dcterms:identifier>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='display_call_number_tesim']/str">
-          <dc:identifier>
+          <dcterms:identifier>
             <xsl:value-of select="."/>
-          </dc:identifier>
+          </dcterms:identifier>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='creator_tesim']/str">
-          <dc:creator>
+          <dcterms:creator>
             <xsl:value-of select="."/>
-          </dc:creator>
+          </dcterms:creator>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='author_name_tesim']/str">
-          <dc:creator>
+          <dcterms:creator>
             <xsl:value-of select="."/>
-          </dc:creator>
+          </dcterms:creator>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='contributor_tesim']/str">
-          <dc:contributor>
+          <dcterms:contributor>
             <xsl:value-of select="."/>
-          </dc:contributor>
+          </dcterms:contributor>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='description_tesim']/str">
@@ -114,21 +114,21 @@
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='abstract_tesim']/str">
-          <dc:description>
+          <dcterms:description>
             <xsl:value-of select="."/>
-          </dc:description>
+          </dcterms:description>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='subject_tesim']/str">
-          <dc:subject>
+          <dcterms:subject>
             <xsl:value-of select="."/>
-          </dc:subject>
+          </dcterms:subject>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='relation_tesim']/str">
-          <dc:relation>
+          <dcterms:relation>
             <xsl:value-of select="."/>
-          </dc:relation>
+          </dcterms:relation>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='collection_tesim']/str">
@@ -138,11 +138,12 @@
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='rights_tesim']/str">
-          <dc:rights>
+          <dcterms:rights>
             <xsl:value-of select="."/>
-          </dc:rights>
+          </dcterms:rights>
         </xsl:for-each>
         <dc:rights>https://creativecommons.org/publicdomain/mark/1.0/</dc:rights>
+        <dcterms:rightsholder>University of Pennsylvania Libraries</dcterms:rightsholder>
 
         <xsl:for-each select="$doc//arr[@name='coverage_tesim']/str">
           <dcterms:spatial>
@@ -151,34 +152,34 @@
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='language_tesim']/str">
-          <dc:language>
+          <dcterms:language>
             <xsl:value-of select="."/>
-          </dc:language>
+          </dcterms:language>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='source_tesim']/str">
-          <dc:source>
+          <dcterms:source>
             <xsl:value-of select="."/>
-          </dc:source>
+          </dcterms:source>
         </xsl:for-each>
 
-        <dc:publisher>University of Pennsylvania Libraries</dc:publisher>
+        <dcterms:publisher>University of Pennsylvania Libraries</dcterms:publisher>
         <xsl:for-each select="$doc//arr[@name='publisher_tesim']/str">
-          <dc:publisher>
+          <dcterms:publisher>
             <xsl:value-of select="."/>
-          </dc:publisher>
+          </dcterms:publisher>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='date_tesim']/str">
-          <dc:date>
+          <dcterms:date>
             <xsl:value-of select="."/>
-          </dc:date>
+          </dcterms:date>
         </xsl:for-each>
 
         <xsl:for-each select="$doc//arr[@name='item_type_tesim']/str">
-          <dc:type>
+          <dcterms:type>
             <xsl:value-of select="."/>
-          </dc:type>
+          </dcterms:type>
         </xsl:for-each>
 
       </oai_qdc:qualifieddc>
