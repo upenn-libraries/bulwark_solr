@@ -188,9 +188,6 @@
     <field name="lat" type="tdouble" stored="true" indexed="true" multiValued="false"/>
     <field name="lng" type="tdouble" stored="true" indexed="true" multiValued="false"/>
 
-    <field name="datestamp" type="date" indexed="true" stored="true" required="true" default="NOW"/>
-
-
     <!-- NOTE:  not all possible Solr field types are represented in the dynamic fields -->
 
     <!-- text (_t...) -->
