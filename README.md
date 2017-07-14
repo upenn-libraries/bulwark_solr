@@ -1,6 +1,6 @@
 # Solr 5.5.4 for Bulwark
 
-This repository contains a Dockerized Solr 5.5.4 instance for deployment of Bulwark.  It uses [oai4solr](https://github.com/IISH/oai4solr) to expose an OAI feed of objections in the repository, populating the feed from the Solr index.
+This repository contains a Dockerized Solr 5.5.4 instance for deployment of Bulwark.  It uses [oai4solr](https://github.com/IISH/oai4solr) to expose an OAI feed of objects in the repository, populating the feed from the Solr index.
 
 ## Deployment
 
