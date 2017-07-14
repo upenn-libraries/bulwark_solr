@@ -1,15 +1,15 @@
 # Docker image for Solr 5 for Colenda
 
-Stub readme for Dockerized Solr 5.3 instance for initial deployment of Colenda
+Stub readme for Dockerized Solr 5.5.4 instance for deployment of Colenda
 
-## How to use
+## Deployment
 
 1. Build the image
-```bash
-docker build . -t colenda_solr:latest
+```
+docker build . -t solr5_dev:latest
 ```
 2. Spin up the container
-```bash
+```
 docker-compose up
 ```
 
