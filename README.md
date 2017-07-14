@@ -1,6 +1,6 @@
-# Docker image for Solr 5 for Colenda
+# Solr 5.5.4 for Bulwark
 
-Stub readme for Dockerized Solr 5.5.4 instance for deployment of Colenda
+Stub readme for Dockerized Solr 5.5.4 instance for deployment of Bulwark.  It uses [oai4solr](https://github.com/IISH/oai4solr) to expose an OAI feed of objections in the repository, populating the feed from the Solr index.
 
 ## Deployment
 
@@ -14,3 +14,8 @@ docker-compose up
 ```
 
 3. Inside the container, visit Core Admin in a browser and create a core called `blacklight-core`.
+
+
+## Adding OAI metadata formats
+
+See [oai4solr documentation on metadata formats](https://github.com/IISH/oai4solr/blob/6.x-1.0/README.md#the-listmetadataformats-verb).
