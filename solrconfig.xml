@@ -348,6 +348,8 @@
     <int name="resumptionTokenExpirationInSeconds">86400</int>
     <str name="resumptionTokenSeparator">,</str>
 
+    <str name="static_query">item_type_tesim:Manuscript</str>
+
     <!--
     The static_query argument is an optional extra Lucene query and if set, appended as an AND query to the internal
     OAI2 query string. Use this query when you do not want to expose the entire Solr index, but a specific subset.
