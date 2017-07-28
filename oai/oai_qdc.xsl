@@ -141,10 +141,14 @@
           <dcterms:rights>
             <xsl:value-of select="."/>
           </dcterms:rights>
-          <xsl:if test="not($doc//arr[@name='rights_tesim']/str)">
-            <dc:rights>https://creativecommons.org/publicdomain/mark/1.0/</dc:rights>
-          </xsl:if>
         </xsl:for-each>
+
+        <xsl:choose>
+          <xsl:when test="not($doc//arr[@name='rights_tesim']/str)">
+            <dcterms:rights>https://creativecommons.org/publicdomain/mark/1.0/</dcterms:rights>
+          </xsl:when>
+        </xsl:choose>
+        
         <dcterms:rightsholder>University of Pennsylvania Libraries</dcterms:rightsholder>
 
         <xsl:for-each select="$doc//arr[@name='coverage_tesim']/str">
