@@ -37,7 +37,7 @@
             <datestamp>
                 <xsl:value-of select="$doc//date[@name='datestamp']"/>
             </datestamp>
-            <xsl:for-each select="$doc//arr[@name='theme']/str">
+            <xsl:for-each select="$doc//arr[@name='set']/str">
                 <setSpec>
                     <xsl:value-of select="."/>
                 </setSpec>
