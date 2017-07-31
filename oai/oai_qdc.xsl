@@ -148,7 +148,7 @@
             <dcterms:rights>https://creativecommons.org/publicdomain/mark/1.0/</dcterms:rights>
           </xsl:when>
         </xsl:choose>
-        
+
         <dcterms:rightsholder>University of Pennsylvania Libraries</dcterms:rightsholder>
 
         <xsl:for-each select="$doc//arr[@name='coverage_tesim']/str">

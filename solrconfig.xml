@@ -332,7 +332,7 @@
     <str name="field_sort_datestamp">datestamp</str>
 
     <!-- index for the -set value -->
-    <str name="field_index_set">theme:"%s"</str>
+    <str name="field_index_set">set_tesim:"%s"</str>
 
     <!-- Some documents may be large or small, depending on the schema.
     In that case, we set the step of the paging to a lower count. -->
