@@ -7,6 +7,11 @@ services:
     ports:
      - "8983:8983"
     volumes:
+      - config_data:/opt/solr/server/solr/blacklight-core/conf/
+      - oai:/opt/solr/server/solr/oai/
       - data:/opt/solr/server/solr/blacklight-core/
 volumes:
+  config_data:
+  oai:
   data:
+

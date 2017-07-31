@@ -10,6 +10,11 @@
       <setDescription>Penn in Hand: Selected Manuscripts</setDescription>
     </set>
     <set>
+      <setSpec>print</setSpec>
+      <setName>Print at Penn</setName>
+      <setDescription>Print at Penn: Selected Printed Works</setDescription>
+    </set>
+    <set>
       <setSpec>kaplan</setSpec>
       <setName>Kaplan Collection</setName>
       <setDescription>Arnold and Deanne Kaplan Collection of Jewish Americana</setDescription>
