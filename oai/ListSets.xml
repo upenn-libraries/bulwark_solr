@@ -6,31 +6,14 @@
     <set>
       <setSpec>manuscripts</setSpec>
       <setName>Penn in Hand</setName>
-      <setDescription>
-        <oai:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>Penn in Hand: Selected Manuscripts</dc:title>
-          <dc:creator>University of Pennsylvania Libraries</dc:creator>
-        </oai:dc>
-      </setDescription>
     </set>
     <set>
       <setSpec>print</setSpec>
       <setName>Print at Penn</setName>
-      <setDescription>
-        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>Print at Penn: Selected Printed Works</dc:title>
-          <dc:creator>University of Pennsylvania Libraries</dc:creator>
-        </oai_dc:dc>
-      </setDescription>
     </set>
     <set>
       <setSpec>kaplan</setSpec>
       <setName>Kaplan Collection</setName>
-      <setDescription>
-        <oai:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>Arnold and Deanne Kaplan Collection of Jewish Americana</dc:title>
-          <dc:creator>University of Pennsylvania Libraries</dc:creator>
-        </oai:dc>
     </set>
   </ListSets>
 </OAI-PMH>
