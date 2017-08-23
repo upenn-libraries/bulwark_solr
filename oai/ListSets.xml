@@ -5,15 +5,15 @@
   <ListSets>
     <set>
       <setSpec>manuscripts</setSpec>
-      <setName>Penn in Hand</setName>
+      <setName>Penn in Hand: Selected Manuscripts</setName>
     </set>
     <set>
       <setSpec>print</setSpec>
-      <setName>Print at Penn</setName>
+      <setName>Print at Penn: Selected Printed Works</setName>
     </set>
     <set>
       <setSpec>kaplan</setSpec>
-      <setName>Kaplan Collection</setName>
+      <setName>Arnold and Deanne Kaplan Collection of Jewish Americana</setName>
     </set>
   </ListSets>
 </OAI-PMH>
