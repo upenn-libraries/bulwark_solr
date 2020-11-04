@@ -8,7 +8,7 @@ Stub readme for Dockerized Solr 5.3 instance for initial deployment of Colenda
 ```bash
 docker build . -t colenda_solr:latest
 ```
-2. Spin up the container
+2. Spin up the container.
 ```bash
 docker-compose up
 ```
